@@ -1,4 +1,4 @@
-<h1 align="center">BOBILE UI SCREENS (190+)</h1>
+<h1 align="center">MOBILE UI SCREENS (190+)</h1>
 
 <img src="./RM/Mobile and Web UI Kit (190+) (Community) – Figma - Google Chrome 4_20_2024 1_10_57 PM.png">
 
