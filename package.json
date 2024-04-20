@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "mobile-ui-screens",
+  "version": "1.2.0",
+  "description": "Mobile Ui Screens (190+) Page's",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "twind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "Algorithm Group",
+  "license": "ISC"
+}

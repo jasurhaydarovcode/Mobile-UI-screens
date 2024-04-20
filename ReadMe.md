@@ -16,7 +16,7 @@
 
 ### package.json
 ```bash
-npm -y
+npm init -y
 ```
 
 ### npm install (node package manager)
