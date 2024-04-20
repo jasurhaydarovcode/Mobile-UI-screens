@@ -13,5 +13,6 @@
     "twind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "author": "Algorithm Group",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": []
 }
