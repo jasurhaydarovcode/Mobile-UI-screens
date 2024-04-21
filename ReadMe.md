@@ -1,4 +1,4 @@
-<h1 align="center">MOBILE UI SCREENS (190+)</h1>
+<h1 align="center">MOBILE UI SCREENS (100+)</h1>
 
 <img src="./art/banner/banner.png">
 
