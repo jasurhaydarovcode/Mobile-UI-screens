@@ -4,7 +4,7 @@
 
 ---
 
-<h2 align="center">9 Developers are working on this project</h2>
+___<h2 align="center">Eight Developers are working on this project</h2>___
 
 <h2 align="center">And for this, 2 technologies are involved</h2>
 
@@ -12,7 +12,7 @@
 
 ---
 
-# How To Run This Project
+# `Manual`
 
 ### package.json
 ```bash
@@ -34,6 +34,8 @@ npm run twind
 ```
 
 ---
+
+# ___`You can see the pages`___
 
 | Page 1                                              | Page 2                                              | Page 3                                              | Page 4                                              |
 | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
