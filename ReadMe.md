@@ -8,7 +8,7 @@
 
 <h2 align="center">And for this, 2 technologies are involved</h2>
 
-<h1 align="center"><img src="https://raw.githubusercontent.com/ha7darov/ha7darov/main/FremWork%20%26%20Library/Technology/html-5-bland.webp" width="70" title="HTML5" alt="html5"> <img src="https://raw.githubusercontent.com/ha7darov/ha7darov/main/FremWork%20%26%20Library/tailwind.svg" width="70" title="HTML5" alt="html5"></h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/ha7darov/ha7darov/main/Technology/html-5-bland.webp" width="70" title="HTML5" alt="html5"> <img src="https://raw.githubusercontent.com/ha7darov/ha7darov/main/FremWork%20%26%20Library/tailwind.svg" width="70" title="HTML5" alt="html5"></h1>
 
 ---
 
