@@ -731,6 +731,10 @@ video {
   clear: none;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -751,12 +755,20 @@ video {
   margin-bottom: 1rem;
 }
 
+.-mt-4 {
+  margin-top: -1rem;
+}
+
 .-mt-5 {
   margin-top: -1.25rem;
 }
 
 .-mt-8 {
   margin-top: -2rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .ml-1 {
@@ -805,14 +817,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.-mt-4 {
-  margin-top: -1rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .mt-8 {
@@ -966,6 +970,10 @@ video {
   height: 24px;
 }
 
+.h-\[28px\] {
+  height: 28px;
+}
+
 .h-\[34px\] {
   height: 34px;
 }
@@ -998,6 +1006,10 @@ video {
   height: 72px;
 }
 
+.h-\[873px\] {
+  height: 873px;
+}
+
 .h-\[95px\] {
   height: 95px;
 }
@@ -1006,12 +1018,9 @@ video {
   height: 100vh;
 }
 
-.h-\[22px\] {
-  height: 22px;
-}
-
-.h-\[28px\] {
-  height: 28px;
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .w-10 {
@@ -1086,8 +1095,16 @@ video {
   width: 24px;
 }
 
+.w-\[28px\] {
+  width: 28px;
+}
+
 .w-\[34px\] {
   width: 34px;
+}
+
+.w-\[390px\] {
+  width: 390px;
 }
 
 .w-\[40px\] {
@@ -1120,38 +1137,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[0px\] {
-  width: 0px;
-}
-
-.w-\[800px\] {
-  width: 800px;
-}
-
-.w-\[80px\] {
-  width: 80px;
-}
-
-.w-\[60px\] {
-  width: 60px;
-}
-
-.w-\[50px\] {
-  width: 50px;
-}
-
-.w-\[30px\] {
-  width: 30px;
-}
-
-.w-\[22px\] {
-  width: 22px;
-}
-
-.w-\[28px\] {
-  width: 28px;
 }
 
 .flex-shrink {
@@ -2004,6 +1989,10 @@ video {
   border-radius: 1.5rem;
 }
 
+.rounded-\[25px\] {
+  border-radius: 25px;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -2159,6 +2148,11 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-\[\#262626\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(38 38 38 / var(--tw-border-opacity));
+}
+
 .bg-\[\#161616\] {
   --tw-bg-opacity: 1;
   background-color: rgb(22 22 22 / var(--tw-bg-opacity));
@@ -2214,8 +2208,9 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#d0d0d0q\] {
-  background-color: #d0d0d0q;
+.bg-neutral-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
