@@ -15,6 +15,7 @@
 
 <body>
     <!--  NAVBAR  -->
+    <div class="w-[390px] h-max m-auto border-4 border-[#262626]  mt-8 mb-5 rounded-[25px]">
     <nav class="p-8">
         <div class="flex justify-between">
             <!-- BACK BTN -->
@@ -34,13 +35,55 @@
 
     <!-- ARTISTS ABOUT -->
     <div class="font-semibold text-4xl px-8">
-        <h1 class="font-bold text-2xl">Artists</h1>
-        <div class="w-full h-[190px] rounded-2xl mt-4 bg-[#C4C4C4]"></div>
-        <h1 class="mt-4 text-2xl">John Doe</h1>
+        <h1 class="font-bold text-2xl -mt-5">Artists</h1>
+        <div class="w-full h-[180px] rounded-2xl mt-2 bg-[#C4C4C4]"></div>
+        <h1 class="mt-2 text-2xl">John Doe</h1>
         <p class="text-gray-400 text-sm">4.5k followers</p>
-        <button class="w-full h-[48px] text-xl bg-[#161616] text-white rounded-xl mt-5">Shuffle play
+        <button class="w-full h-[48px] text-xl bg-[#161616] text-white rounded-xl mt-2">Shuffle play
             <!-- <img src="../img/Page-1/shuffle.png" alt=""> -->
         </button>
+    </div>
+
+    <!-- Music Playlist -->
+    <div class="px-8 mt-3 grid gap-4">
+        <!-- 01 -->
+        <div class="flex w-[139px] h-[44px]">
+            <div class="font-semibold mt-3">01</div>
+            <div class="ml-4">
+                <p class="font-semibold">Song title #1</p>
+                <p class="text-gray-400">3:04</p>
+            </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="flex w-[139px] h-[44px]">
+            <div class="font-semibold mt-3">02</div>
+            <div class="ml-4">
+                <p class="font-semibold">Song title #2</p>
+                <p class="text-gray-400">3:34</p>
+            </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="flex w-[139px] h-[44px]">
+            <div class="font-semibold mt-3">03</div>
+            <div class="ml-4">
+                <p class="font-semibold">Song title #3</p>
+                <p class="text-gray-400">4:13</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Play Music Part -->
+    <div class="px-8 mt-3 w-full h-[95px] rounded-2xl bg-[#D0D0D0]">
+        
+        <!-- Tap Button nextMusic/OldMusic -->
+        <div class="flex justify-around">
+            <a href="#" class="mt-12"><img class="w-[18px] h-[18px]" src="../img/Page-1/Vector.png"></a>
+            <a href="#" class="-mt-8"><img class="rounded-full bg-[#d0d0d0] border-white border-4" src="../img/Page-1/pause_circle_outline.png" alt=""></a>
+            <a href="#" class="mt-10"><img class="w-[34px] h-[34px]" src="../img/Page-1/skip_next.png"></a>
+        </div>
+    </div>
     </div>
 </body>
 

@@ -4,7 +4,7 @@
   },
   "name": "mobile-ui-screens",
   "version": "1.2.0",
-  "description": "Mobile Ui Screens (190+) Page's",
+  "description": "Mobile Ui Screens (100+) Page's",
   "main": "tailwind.config.js",
   "devDependencies": {},
   "scripts": {
