@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- * Meta Tag's -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- * Title -->
+    <title>Document</title>
+
+    <!-- * Tailwind CSS -->
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<style>
+    .neddscrol::-webkit-scrollbar {
+        width: 4px;
+        background-color: gray;
+
+    }
+    .neddscrol{
+        overflow-y: scroll;
+    }
+</style>
+
+<body>
+    <div
+        class="overflow-x-hidden overflow-y-auto w-[390px] h-max m-auto border-4 border-[#262626]  mt-8 mb-5 rounded-[25px]">
+        <div class="neddscrol pl-[20px] overflow-x-hidden overflow-y-auto">
+            <nav>
+                <h2 class="text-[20px] font-bold mt-2">Hello, John Doe</h2>
+                <p class="text-[10px] font-bold tracking-wider mt-[10px]">FOLLOWED</p>
+            </nav>
+            <main>
+                <div class="grid grid-cols-5 gap-4 w-max mt-3">
+                    <img src="./img/Frame 480.png" alt="" class="w-[72px]">
+                    <img src="./img/Frame 480.png" alt="" class="w-[72px]">
+                    <img src="./img/Frame 480.png" alt="" class="w-[72px]">
+                    <img src="./img/Frame 480.png" alt="" class="w-[72px]">
+                    <img src="./img/Frame 480.png" alt="" class="w-[72px]">
+                </div>
+                <div>
+                    <img src="./img/Frame 492.png" alt="" class="mt-5">
+                </div>
+                <div>
+                    <img src="./img/Frame 493.png" alt="" class="mt-5">
+                </div>
+            </main>
+        </div>
+        <div class="w-full bg-black h-[129px] p-[20px]">
+            <img src="./img/Rectangle 144.png" alt="">
+            <div class="text-white grid ml-[33%] mt-[-87px]">
+                <p class="text-[10px] font-normal">PLAYING NOW</p>
+
+                <h3 class="text-[16px] mt-[35px]">Song name</h3>
+                <p class="text-[10px] font-medium">Artist name</p>
+            </div>
+            <img src="./img/Vector.png" alt="" class="ml-[83%] mt-[-60px]">
+        </div>
+    </div>
+</body>
+
+</html>

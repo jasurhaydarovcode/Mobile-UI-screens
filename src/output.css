@@ -808,6 +808,14 @@ video {
   margin-left: 32px;
 }
 
+.ml-\[33\%\] {
+  margin-left: 33%;
+}
+
+.ml-\[83\%\] {
+  margin-left: 83%;
+}
+
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -832,6 +840,10 @@ video {
   margin-top: 0.75rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-48 {
   margin-top: 12rem;
 }
@@ -848,20 +860,28 @@ video {
   margin-top: 2rem;
 }
 
-.mt-\[20px\] {
-  margin-top: 20px;
+.mt-\[-60px\] {
+  margin-top: -60px;
 }
 
-.mt-\[8px\] {
-  margin-top: 8px;
+.mt-\[-87px\] {
+  margin-top: -87px;
 }
 
 .mt-\[10px\] {
   margin-top: 10px;
 }
 
-.mt-4 {
-  margin-top: 1rem;
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mt-\[35px\] {
+  margin-top: 35px;
+}
+
+.mt-\[8px\] {
+  margin-top: 8px;
 }
 
 .box-border {
@@ -999,6 +1019,10 @@ video {
   height: 2rem;
 }
 
+.h-\[129px\] {
+  height: 129px;
+}
+
 .h-\[180px\] {
   height: 180px;
 }
@@ -1054,10 +1078,6 @@ video {
 .h-max {
   height: -moz-max-content;
   height: max-content;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .w-10 {
@@ -1164,6 +1184,10 @@ video {
   width: 70px;
 }
 
+.w-\[72px\] {
+  width: 72px;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -1178,6 +1202,11 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .flex-shrink {
@@ -1524,6 +1553,10 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -2404,6 +2437,10 @@ video {
   padding: 2rem;
 }
 
+.p-\[20px\] {
+  padding: 20px;
+}
+
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -2414,12 +2451,21 @@ video {
   padding-right: 2rem;
 }
 
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
 
 .pl-3 {
   padding-left: 0.75rem;
+}
+
+.pl-\[20px\] {
+  padding-left: 20px;
 }
 
 .pt-3 {
@@ -2501,6 +2547,10 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[10px\] {
+  font-size: 10px;
+}
+
 .text-\[13px\] {
   font-size: 13px;
 }
@@ -2529,6 +2579,10 @@ video {
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .font-semibold {
@@ -2601,6 +2655,10 @@ video {
 .stacked-fractions {
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .text-\[\#262626\] {
