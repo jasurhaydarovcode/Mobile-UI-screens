@@ -862,6 +862,10 @@ video {
   margin-left: -20px;
 }
 
+.ml-\[-9px\] {
+  margin-left: -9px;
+}
+
 .ml-\[10px\] {
   margin-left: 10px;
 }
@@ -1963,6 +1967,10 @@ video {
   gap: 0.5rem;
 }
 
+.gap-24 {
+  gap: 6rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -2922,6 +2930,10 @@ video {
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
 }
 
 .text-\[86px\] {
