@@ -862,6 +862,10 @@ video {
   margin-left: -20px;
 }
 
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+
 .ml-\[18\.5px\] {
   margin-left: 18.5px;
 }
@@ -946,6 +950,10 @@ video {
   margin-top: 2.25rem;
 }
 
+.mt-\[-20px\] {
+  margin-top: -20px;
+}
+
 .mt-\[-215px\] {
   margin-top: -215px;
 }
@@ -974,20 +982,12 @@ video {
   margin-top: 35px;
 }
 
-.mt-\[8px\] {
-  margin-top: 8px;
-}
-
-.ml-\[10px\] {
-  margin-left: 10px;
-}
-
-.mt-\[-20px\] {
-  margin-top: -20px;
-}
-
 .mt-\[5px\] {
   margin-top: 5px;
+}
+
+.mt-\[8px\] {
+  margin-top: 8px;
 }
 
 .box-border {
@@ -1225,6 +1225,10 @@ video {
   height: 72px;
 }
 
+.h-\[75px\] {
+  height: 75px;
+}
+
 .h-\[95px\] {
   height: 95px;
 }
@@ -1342,6 +1346,10 @@ video {
   width: 34px;
 }
 
+.w-\[360px\] {
+  width: 360px;
+}
+
 .w-\[390px\] {
   width: 390px;
 }
@@ -1370,6 +1378,10 @@ video {
   width: 72px;
 }
 
+.w-\[75px\] {
+  width: 75px;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -1389,10 +1401,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[360px\] {
-  width: 360px;
 }
 
 .flex-shrink {
@@ -2742,6 +2750,11 @@ video {
   padding-right: 2rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -2767,11 +2780,6 @@ video {
   padding-bottom: 30px;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .pb-3 {
   padding-bottom: 0.75rem;
 }
@@ -2788,6 +2796,10 @@ video {
   padding-left: 0.75rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -2798,6 +2810,10 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
 }
 
 .pt-3 {
@@ -2814,10 +2830,6 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
 }
 
 .text-left {
@@ -2912,6 +2924,10 @@ video {
   font-size: 20px;
 }
 
+.text-\[86px\] {
+  font-size: 86px;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -2925,10 +2941,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[86px\] {
-  font-size: 86px;
 }
 
 .font-bold {
