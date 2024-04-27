@@ -11,17 +11,45 @@
 
     <!-- * Tailwind CSS -->
     <link rel="stylesheet" href="/src/output.css">
+    <style>
+        /* .first-range::-webkit-slider-thumb {
+            background: #00fd0a !important;
+            color: red;
+        } */
+        .first-range {
+            accent-color: red;
+        }
+    </style>
 </head>
 
 <body>
     <div class="w-[390px] h-max m-auto border-4 border-[#262626]  mt-8 mb-5 rounded-[25px] pl-[20px] py-[30px]">
         <nav>
-            <h2 class="text-[20px] font-bold">Hello, John Doe</h2>
-            <p class="text-[10px] font-bold tracking-wider mt-[20px]">FOLLOWED</p>
+            <h3 class="font-bold text-[20px]">
+                <                        Playing now </h3>
         </nav>
-        <main></main>
-        <footer></footer>
-        <div></div>
+        <main>
+            <img src="./img/Rectangle 145.png" alt="" class="mt-9 ml-[2px]">
+            <img src="./img/Rectangle 147.png" alt="" class="relative mt-[-275px] ml-[-20px] z-[-2]">
+            <img src="./img/Rectangle 147.png" alt="" class="relative mt-[-215px] ml-[200px] z-[-2]">
+
+            <div class="mt-24">
+                <h3 class="text-center">Hello darkness my old friend</h4>
+                    <p class="text-center">Umm, Idk</p>
+            </div>
+        </main>
+        <footer>
+            <input type="range" class="first-range w-[325px] translate-x-3 translate-y-5">
+            <div class="w-full flex justify-between mt-[20px]">
+                <p class="ml-3">1:12</p>
+                <p class="mr-6">-2:23</p>
+            </div>
+            <div class="flex gap-12 ml-3 mt-6">
+                <img src="./img/replay.png" alt="">
+                <img src="./img/Frame 496.png" alt="">
+                <img src="./img/shuffle.png" alt="">
+            </div>
+        </footer>
     </div>
 </body>
 
