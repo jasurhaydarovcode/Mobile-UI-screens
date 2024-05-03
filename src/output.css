@@ -1128,6 +1128,162 @@ video {
   margin-top: 8px;
 }
 
+.-mt-\[200px\] {
+  margin-top: -200px;
+}
+
+.-mt-\[600px\] {
+  margin-top: -600px;
+}
+
+.-mt-\[500px\] {
+  margin-top: -500px;
+}
+
+.-mt-\[580px\] {
+  margin-top: -580px;
+}
+
+.ml-\[300px\] {
+  margin-left: 300px;
+}
+
+.ml-\[290px\] {
+  margin-left: 290px;
+}
+
+.-mt-\[400px\] {
+  margin-top: -400px;
+}
+
+.-mt-\[300px\] {
+  margin-top: -300px;
+}
+
+.-mt-\[360px\] {
+  margin-top: -360px;
+}
+
+.-mt-\[370px\] {
+  margin-top: -370px;
+}
+
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.ml-\[110px\] {
+  margin-left: 110px;
+}
+
+.-mt-\[170px\] {
+  margin-top: -170px;
+}
+
+.ml-\[102px\] {
+  margin-left: 102px;
+}
+
+.ml-\[202px\] {
+  margin-left: 202px;
+}
+
+.ml-\[302px\] {
+  margin-left: 302px;
+}
+
+.ml-\[252px\] {
+  margin-left: 252px;
+}
+
+.-mt-\[240px\] {
+  margin-top: -240px;
+}
+
+.-mt-\[20px\] {
+  margin-top: -20px;
+}
+
+.-mt-\[210px\] {
+  margin-top: -210px;
+}
+
+.-mt-\[215px\] {
+  margin-top: -215px;
+}
+
+.ml-\[112px\] {
+  margin-left: 112px;
+}
+
+.ml-\[262px\] {
+  margin-left: 262px;
+}
+
+.-mt-\[180px\] {
+  margin-top: -180px;
+}
+
+.-mt-\[380px\] {
+  margin-top: -380px;
+}
+
+.-mt-\[225px\] {
+  margin-top: -225px;
+}
+
+.-mt-\[190px\] {
+  margin-top: -190px;
+}
+
+.-mt-\[390px\] {
+  margin-top: -390px;
+}
+
+.-mt-\[100px\] {
+  margin-top: -100px;
+}
+
+.-mt-\[120px\] {
+  margin-top: -120px;
+}
+
+.-mt-\[130px\] {
+  margin-top: -130px;
+}
+
+.-mt-\[140px\] {
+  margin-top: -140px;
+}
+
+.ml-\[20px\] {
+  margin-left: 20px;
+}
+
+.ml-\[5px\] {
+  margin-left: 5px;
+}
+
+.-mt-\[0px\] {
+  margin-top: -0px;
+}
+
+.-mt-\[235px\] {
+  margin-top: -235px;
+}
+
+.-mt-\[220px\] {
+  margin-top: -220px;
+}
+
+.-mt-\[420px\] {
+  margin-top: -420px;
+}
+
+.-mt-\[245px\] {
+  margin-top: -245px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1440,6 +1596,22 @@ video {
   height: max-content;
 }
 
+.h-\[900px\] {
+  height: 900px;
+}
+
+.h-\[744px\] {
+  height: 744px;
+}
+
+.h-\[644px\] {
+  height: 644px;
+}
+
+.h-\[8\] {
+  height: 8;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1602,6 +1774,10 @@ video {
 
 .w-\[390px\] {
   width: 390px;
+}
+
+.w-\[3920px\] {
+  width: 3920px;
 }
 
 .w-\[40px\] {
