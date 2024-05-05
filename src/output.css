@@ -723,6 +723,14 @@ video {
   z-index: -2;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
+.-z-50 {
+  z-index: -50;
+}
+
 .col-span-8 {
   grid-column: span 8 / span 8;
 }
@@ -1252,6 +1260,90 @@ video {
   margin-top: 8px;
 }
 
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.ml-36 {
+  margin-left: 9rem;
+}
+
+.ml-28 {
+  margin-left: 7rem;
+}
+
+.-mt-7 {
+  margin-top: -1.75rem;
+}
+
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+
+.-mt-12 {
+  margin-top: -3rem;
+}
+
+.-mt-14 {
+  margin-top: -3.5rem;
+}
+
+.-mt-16 {
+  margin-top: -4rem;
+}
+
+.-mt-\[20px\] {
+  margin-top: -20px;
+}
+
+.-mt-\[50px\] {
+  margin-top: -50px;
+}
+
+.-mt-\[60px\] {
+  margin-top: -60px;
+}
+
+.-mt-\[63px\] {
+  margin-top: -63px;
+}
+
+.-mt-\[62px\] {
+  margin-top: -62px;
+}
+
+.-mt-\[61px\] {
+  margin-top: -61px;
+}
+
+.-mt-\[70px\] {
+  margin-top: -70px;
+}
+
+.-mt-\[80px\] {
+  margin-top: -80px;
+}
+
+.ml-2\.5 {
+  margin-left: 0.625rem;
+}
+
+.mt-\[43px\] {
+  margin-top: 43px;
+}
+
+.mt-\[23px\] {
+  margin-top: 23px;
+}
+
+.mt-\[33px\] {
+  margin-top: 33px;
+}
+
+.mt-\[13px\] {
+  margin-top: 13px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1584,6 +1676,22 @@ video {
   height: max-content;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[81px\] {
+  height: 81px;
+}
+
+.h-\[71px\] {
+  height: 71px;
+}
+
+.h-\[61px\] {
+  height: 61px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1879,6 +1987,38 @@ video {
 
 .w-\[272px\] {
   width: 272px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[65px\] {
+  width: 65px;
+}
+
+.w-\[290px\] {
+  width: 290px;
+}
+
+.w-0 {
+  width: 0px;
+}
+
+.w-\[350px\] {
+  width: 350px;
+}
+
+.w-\[353px\] {
+  width: 353px;
 }
 
 .max-w-screen-xl {
@@ -2481,6 +2621,18 @@ video {
   gap: 2.25rem;
 }
 
+.gap-40 {
+  gap: 10rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2833,6 +2985,18 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
 }
 
 .rounded-b {
