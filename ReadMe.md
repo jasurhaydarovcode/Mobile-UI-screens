@@ -12,6 +12,8 @@ ___<h2 align="center">Eight Developers are working on this project</h2>___
 
 ---
 
+<div align="center">
+
 ## [Figma variant of this page](https://www.figma.com/file/PYxKE43COXGOtyVP7QT9nG/Mobile-and-Web-UI-Kit-(190%2B)-(Community)?type=design&node-id=0-1&mode=design&t=uhvJ5qJR4JuwXcns-0)
 
 ---
@@ -40,16 +42,16 @@ npm run twind
 ---
 ## ___Algorithm Group___
 
-| Part  | Mobile |
-| --------  | -------- |
-| Mirhamid  |  1-20, 161,162  |
-| Jasurbek  |  21-40, 163,164 |
-| Asliddin  |  41-60, 165,166 |
-| Jasmina   |  61-80, 167,168 |
-| Samira    |  81-100, 169,170 |
-| Asilbek   |  101-120, 171,172 |
-| Khujamov  |  121-140, 173,174 |
-| Nodir     |  141-160, 175 |
+|№| Dev's  | Mobile Page |
+| -------- | --------  | -------- |
+| 1 | Mirhamid  |  1-20, 161,162  |
+| 2 | Jasur  |  21-40, 163,164 |
+| 3 | Asliddin  |  41-60, 165,166 |
+| 4 | Jasmina   |  61-80, 167,168 |
+| 5 | Samira    |  81-100, 169,170 |
+| 6 | Asilbek   |  101-120, 171,172 |
+| 7 | Khujamov  |  121-140, 173,174 |
+| 8 | Nodir     |  141-160, 175 |
 
 
 ---
