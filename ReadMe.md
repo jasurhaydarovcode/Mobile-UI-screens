@@ -20,11 +20,6 @@ ___<h2 align="center">Eight Developers are working on this project</h2>___
 
 # `layout`
 
-### package.json
-```bash
-npm init -y
-```
-
 ### npm install (node package manager)
 ```bash
 npm i
