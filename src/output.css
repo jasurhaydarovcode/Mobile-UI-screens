@@ -1272,6 +1272,14 @@ video {
   margin-top: 8px;
 }
 
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2287,6 +2295,10 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-10 {
+  grid-template-columns: repeat(10, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
@@ -3621,6 +3633,10 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pl-20 {
+  padding-left: 5rem;
 }
 
 .text-left {

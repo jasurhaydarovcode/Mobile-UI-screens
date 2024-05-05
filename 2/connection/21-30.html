@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>Mobile UI Kit</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="https://freesvg.org/img/1527145993.png">
+
+    <!--TODO: style.css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="/src/output.css">
+
+    <!-- Flowbite cdn -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <style>
+        .all-img-style {
+            img {
+                width: 100px;
+            }
+        }
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: rgb(26,86,219);
+        }
+    </style>
+</head>
+
+<body class="dark:bg-gray-900">
+
+
+    <nav class="w-14 justify-center flex items-center h-10 pt-20 pl-20">
+        <button id="theme-toggle" type="button"
+            class="text-gray-500 dark:text-gray-400 border-2 border-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                    fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+        </button>
+    </nav>
+
+    <div>
+        <section class="bg-white dark:bg-gray-900">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+                <h1
+                    class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                    <a href="./index.html">Mobile Ui Kit</a>
+                </h1>
+                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">Test
+                    Server, Must finish in 1 month</p>
+                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                    <div class="grid grid-cols-10 gap-4">
+                        <div class="all-img-style">
+                            <a href="../Page-1/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_21.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-2/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_22.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-3/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_23.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-4/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_24.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-5/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_25.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-6/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_26.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-7/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_27.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-8/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_28.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-9/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_29.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-10/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_30.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-11/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_31.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-12/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_32.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-13/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_33.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-14/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_34.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-15/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_35.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-16/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_36.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-17/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_37.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-18/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_38.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style">
+                            <a href="../Page-19/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_39.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="all-img-style rounded-xl">
+                            <a href="../Page-20/index.html" target="_blank">
+                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_40.png" alt="">
+                                <button
+                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+        viewBox="0 0 14 10">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+    </svg>
+    <script>
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+
+        var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+        var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            themeToggleLightIcon.classList.remove('hidden');
+        } else {
+            themeToggleDarkIcon.classList.remove('hidden');
+        }
+
+        var themeToggleBtn = document.getElementById('theme-toggle');
+
+        themeToggleBtn.addEventListener('click', function () {
+
+            themeToggleDarkIcon.classList.toggle('hidden');
+            themeToggleLightIcon.classList.toggle('hidden');
+
+            if (localStorage.getItem('color-theme')) {
+                if (localStorage.getItem('color-theme') === 'light') {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                }
+
+            } else {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                }
+            }
+
+        });
+    </script>
+
+    <!-- Flowbite js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>
