@@ -659,6 +659,10 @@ video {
   inset: -0.25rem;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .bottom-10 {
   bottom: 2.5rem;
 }
@@ -673,6 +677,10 @@ video {
 
 .end-1 {
   inset-inline-end: 0.25rem;
+}
+
+.left-0 {
+  left: 0px;
 }
 
 .left-5 {
@@ -1523,6 +1531,10 @@ video {
   height: 34px;
 }
 
+.h-\[35px\] {
+  height: 35px;
+}
+
 .h-\[388px\] {
   height: 388px;
 }
@@ -1557,6 +1569,10 @@ video {
 
 .h-\[50px\] {
   height: 50px;
+}
+
+.h-\[56px\] {
+  height: 56px;
 }
 
 .h-\[60px\] {
@@ -1728,6 +1744,10 @@ video {
   width: 111px;
 }
 
+.w-\[116px\] {
+  width: 116px;
+}
+
 .w-\[127px\] {
   width: 127px;
 }
@@ -1870,6 +1890,10 @@ video {
 
 .w-\[48px\] {
   width: 48px;
+}
+
+.w-\[50px\] {
+  width: 50px;
 }
 
 .w-\[580px\] {
@@ -2907,6 +2931,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2920,6 +2948,11 @@ video {
 .rounded-b-\[30px\] {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .rounded-e {
@@ -3281,9 +3314,18 @@ video {
   background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 228 231 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -3480,6 +3522,11 @@ video {
   padding-right: 16px;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -3533,6 +3580,11 @@ video {
 .py-\[6px\] {
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-2 {
@@ -3693,6 +3745,10 @@ video {
 
 .font-\[Pridi\] {
   font-family: Pridi;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-2xl {
@@ -3990,6 +4046,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-yellow-500 {
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.text-zinc-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 91 / var(--tw-text-opacity));
 }
 
 .underline {
