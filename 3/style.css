@@ -14,7 +14,7 @@
         }
     }
     .clearwidh {
-        width: 110px !important;
+        width: 80px !important;
         padding: 2 4px !important;
     }
 }
@@ -32,11 +32,11 @@
 @media only screen and (max-width: 588px) {
     .all-img-style{
         img{
-            width: 55px;
+            width: 110px;
         }
     }
     .clearwidh {
-        width: 55px !important;
+        width: 35px !important;
         margin-left: -20px;
         padding: 0 8px !important;
     }

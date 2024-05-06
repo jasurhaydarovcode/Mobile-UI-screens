@@ -1519,6 +1519,10 @@ video {
   height: 2px;
 }
 
+.h-\[30px\] {
+  height: 30px;
+}
+
 .h-\[326px\] {
   height: 326px;
 }
@@ -1934,6 +1938,10 @@ video {
 
 .w-\[77px\] {
   width: 77px;
+}
+
+.w-\[80px\] {
+  width: 80px;
 }
 
 .w-\[86px\] {
@@ -2931,10 +2939,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -3299,6 +3303,11 @@ video {
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
+.bg-green-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity));
+}
+
 .bg-neutral-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 23 / var(--tw-bg-opacity));
@@ -3450,6 +3459,10 @@ video {
   padding: 0.25rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -3547,6 +3560,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -3580,11 +3598,6 @@ video {
 .py-\[6px\] {
   padding-top: 6px;
   padding-bottom: 6px;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .pb-2 {
@@ -4502,6 +4515,11 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-green-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 101 52 / var(--tw-bg-opacity));
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -4537,12 +4555,29 @@ video {
   --tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity));
 }
 
+.focus\:ring-green-300:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(134 239 172 / var(--tw-ring-opacity));
+}
+
 .focus\:hover\:text-center:hover:focus {
   text-align: center;
 }
 
 .hover\:focus\:text-center:focus:hover {
   text-align: center;
+}
+
+@media not all and (min-width: 1024px) {
+  .max-lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+@media not all and (min-width: 640px) {
+  .max-sm\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
 
 @media (min-width: 640px) {
@@ -4588,6 +4623,10 @@ video {
 @media (min-width: 1024px) {
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:grid-cols-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
   }
 
   .lg\:px-48 {
