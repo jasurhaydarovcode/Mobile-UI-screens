@@ -44,7 +44,7 @@
 @media only screen and (max-width: 640px) {
     .all-img-style{
         img{
-            width: 155px;
+            width: 155px !important;
             margin: 0 auto;
         }
     }
