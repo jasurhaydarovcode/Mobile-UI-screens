@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- title -->
-    <title>Mobile UI Kit</title>
+    <title>Mobile UI Kit 21-30</title>
 
     <!-- Fav Icon -->
     <link rel="icon" href="https://freesvg.org/img/1527145993.png">
 
-    <!--TODO: style.css -->
-    <link rel="stylesheet" href="./style.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="./responsive.css">
 
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="/src/output.css">
@@ -23,14 +23,10 @@
     <style>
         .all-img-style {
             img {
-                width: 100px;
+                width: 80px;
+                border-radius: 10px;
+                padding-bottom: 7px;
             }
-        }
-        ::-webkit-scrollbar {
-            width: 12px;
-        }
-        ::-webkit-scrollbar-thumb {
-            background-color: rgb(26,86,219);
         }
     </style>
 </head>
@@ -38,7 +34,7 @@
 <body class="dark:bg-gray-900">
 
 
-    <nav class="w-14 justify-center flex items-center h-10 pt-20 pl-20">
+    <nav class="w-14 justify-center flex items-center h-10 p-10">
         <button id="theme-toggle" type="button"
             class="text-gray-500 dark:text-gray-400 border-2 border-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
             <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
@@ -56,20 +52,18 @@
 
     <div>
         <section class="bg-white dark:bg-gray-900">
-            <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+            <div class="py-1 px-4 mx-auto max-w-screen-xl text-center">
                 <h1
                     class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                    <a href="../../index.html">Mobile Ui Kit</a>
+                    <a href="/index.html">Mobile Ui Kit</a>
                 </h1>
-                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">Test
-                    Server, Must finish in 1 month</p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                    <div class="grid grid-cols-10 gap-4">
+                    <div class="griduchunstyle max-sm:grid-cols-1 grid lg:grid-cols-10 gap-10 max-lg:grid-cols-5">
                         <div class="all-img-style">
                             <a href="../Page-1/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_21.png" alt="">
+                                <img src="/art/screenshots/page_21.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="btn-responsive inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base w-[80px] h-[30px] font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -80,9 +74,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-2/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_22.png" alt="">
+                                <img src="/art/screenshots/page_22.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -93,9 +87,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-3/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_23.png" alt="">
+                                <img src="/art/screenshots/page_23.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -106,9 +100,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-4/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_24.png" alt="">
+                                <img src="/art/screenshots/page_24.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -119,9 +113,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-5/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_25.png" alt="">
+                                <img src="/art/screenshots/page_25.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -132,9 +126,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-6/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_26.png" alt="">
+                                <img src="/art/screenshots/page_26.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -145,9 +139,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-7/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_27.png" alt="">
+                                <img src="/art/screenshots/page_27.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -158,9 +152,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-8/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_28.png" alt="">
+                                <img src="/art/screenshots/page_28.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -171,9 +165,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-9/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_29.png" alt="">
+                                <img src="/art/screenshots/page_29.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -184,9 +178,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-10/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_30.png" alt="">
+                                <img src="/art/screenshots/page_30.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -197,9 +191,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-11/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_31.png" alt="">
+                                <img src="/art/screenshots/page_31.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -210,9 +204,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-12/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_32.png" alt="">
+                                <img src="/art/screenshots/page_32.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -223,9 +217,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-13/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_33.png" alt="">
+                                <img src="/art/screenshots/page_33.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -236,9 +230,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-14/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_34.png" alt="">
+                                <img src="/art/screenshots/page_34.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -249,9 +243,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-15/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_35.png" alt="">
+                                <img src="/art/screenshots/page_35.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -262,9 +256,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-16/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_36.png" alt="">
+                                <img src="/art/screenshots/page_36.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -275,9 +269,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-17/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_37.png" alt="">
+                                <img src="/art/screenshots/page_37.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -288,9 +282,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-18/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_38.png" alt="">
+                                <img src="/art/screenshots/page_38.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -301,9 +295,9 @@
                         </div>
                         <div class="all-img-style">
                             <a href="../Page-19/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_39.png" alt="">
+                                <img src="/art/screenshots/page_39.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -312,11 +306,11 @@
                                 </button>
                             </a>
                         </div>
-                        <div class="all-img-style rounded-xl">
+                        <div class="all-img-style">
                             <a href="../Page-20/index.html" target="_blank">
-                                <img class="rounded-xl mb-2" src="../../art/screenshots/page_40.png" alt="">
+                                <img src="/art/screenshots/page_40.png" alt="">
                                 <button
-                                    class="inline-flex justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Watch
+                                    class="inline-flex btn-responsive w-[80px] h-[30px] justify-center items-center col-span-8 sm:col-span-4 md:col-span-2 lg:col-span-2 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">More
                                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -330,11 +324,6 @@
             </div>
         </section>
     </div>
-    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-        viewBox="0 0 14 10">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M1 5h12m0 0L9 1m4 4L9 9" />
-    </svg>
     <script>
         if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark');

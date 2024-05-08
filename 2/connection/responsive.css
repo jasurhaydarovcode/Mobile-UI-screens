@@ -1,0 +1,55 @@
+/* TODO: RESPONSIVE CODE */
+@media only screen and (max-width: 1150px) {
+    .btn-responsive {
+        width: 70px !important;
+        padding: 0 2px !important;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .all-img-style{
+        img{
+            width: 110px;
+        }
+    }
+    .btn-responsive {
+        width: 80px !important;
+        padding: 2 4px !important;
+    }
+}
+@media only screen and (max-width: 753px) {
+    .all-img-style{
+        img{
+            width: 70px;
+        }
+    }
+    .btn-responsive {
+        width: 70px !important;
+        padding: 0 2px !important;
+    }
+}
+@media only screen and (max-width: 588px) {
+    .all-img-style{
+        img{
+            width: 110px;
+        }
+    }
+    .btn-responsive {
+        width: 35px !important;
+        margin-left: -20px;
+        padding: 0 8px !important;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .all-img-style{
+        img{
+            width: 155px !important;
+            margin: 0 auto;
+        }
+    }
+    .btn-responsive {
+        width: 153px !important;
+        margin-left: 2px;
+        padding: 0 8px !important;
+    }
+}
+/* TODO: RESPONSIVE CODE */
