@@ -30,8 +30,7 @@
 </head>
 
 <body class="dark:bg-gray-900">
-
-
+    <!-- HEADER PART -->
     <nav class="w-14 justify-center flex items-center h-10 p-10">
         <button id="theme-toggle" type="button"
             class="text-gray-500 dark:text-gray-400 border-2 border-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
@@ -47,8 +46,10 @@
             </svg>
         </button>
     </nav>
-
-    <div>
+    <!-- HEADER PART -->
+    
+    <!-- MAIN PART -->
+    <main>
         <section class="bg-white dark:bg-gray-900">
             <div class="py-1 px-4 mx-auto max-w-screen-xl text-center">
                 <h1
@@ -323,7 +324,10 @@
                 </div>
             </div>
         </section>
-    </div>
+    </main>
+    <!-- MAIN PART -->
+
+    <!-- JAVA SCRIPT PART -->
     <script>
         if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark');
@@ -368,6 +372,7 @@
 
         });
     </script>
+    <!-- JAVA SCRIPT PART -->
 
     <!-- Flowbite js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
