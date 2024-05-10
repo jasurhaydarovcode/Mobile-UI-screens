@@ -6,7 +6,9 @@
   "version": "1.2.0",
   "description": "Mobile Ui Screens (100+) Page's",
   "main": "tailwind.config.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
