@@ -1,0 +1,5 @@
+<div class="space-x-2">
+    <span class="block h-2 w-2 rounded-full bg-zinc-300"></span>
+    <span class="block h-2 w-2 rounded-full bg-zinc-300"></span>
+    <span class="block h-2 w-2 rounded-full bg-zinc-300"></span>
+</div>
