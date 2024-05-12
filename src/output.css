@@ -1706,6 +1706,10 @@ video {
   height: 60px;
 }
 
+.h-\[61px\] {
+  height: 61px;
+}
+
 .h-\[63px\] {
   height: 63px;
 }
@@ -1767,12 +1771,20 @@ video {
   height: max-content;
 }
 
-.h-\[\] {
-  height: ;
+.h-\[66px\] {
+  height: 66px;
 }
 
-.h-\[61px\] {
-  height: 61px;
+.h-\[86px\] {
+  height: 86px;
+}
+
+.h-\[76px\] {
+  height: 76px;
+}
+
+.h-\[78px\] {
+  height: 78px;
 }
 
 .w-10 {
@@ -2035,6 +2047,10 @@ video {
   width: 50px;
 }
 
+.w-\[56px\] {
+  width: 56px;
+}
+
 .w-\[580px\] {
   width: 580px;
 }
@@ -2112,8 +2128,8 @@ video {
   width: max-content;
 }
 
-.w-\[\] {
-  width: ;
+.w-\[36px\] {
+  width: 36px;
 }
 
 .max-w-screen-xl {
@@ -3118,10 +3134,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-\[\] {
-  border-radius: ;
-}
-
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -3361,6 +3373,11 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-blue-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(96 165 250 / var(--tw-border-opacity));
+}
+
 .border-gray-100 {
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
@@ -3389,11 +3406,6 @@ video {
 .border-zinc-300 {
   --tw-border-opacity: 1;
   border-color: rgb(212 212 216 / var(--tw-border-opacity));
-}
-
-.border-blue-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(96 165 250 / var(--tw-border-opacity));
 }
 
 .bg-\[\#000000\] {
@@ -3573,11 +3585,6 @@ video {
 .bg-zinc-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 231 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-zinc-300 {
@@ -4360,6 +4367,11 @@ video {
   color: rgb(234 179 8 / var(--tw-text-opacity));
 }
 
+.text-zinc-500 {
+  --tw-text-opacity: 1;
+  color: rgb(113 113 122 / var(--tw-text-opacity));
+}
+
 .text-zinc-600 {
   --tw-text-opacity: 1;
   color: rgb(82 82 91 / var(--tw-text-opacity));
@@ -4368,15 +4380,6 @@ video {
 .text-zinc-800 {
   --tw-text-opacity: 1;
   color: rgb(39 39 42 / var(--tw-text-opacity));
-}
-
-.text-zinc-500 {
-  --tw-text-opacity: 1;
-  color: rgb(113 113 122 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .underline {
