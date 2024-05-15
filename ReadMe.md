@@ -39,7 +39,7 @@ npm run twind
 
 | № |   Dev's   |   Mobile Page     | ✅ Submitted ❌ |
 | -------- | --------  |  --------  |     --------     |
-| 1 | Mirhamid  |  1-20, 161,162    |                  |
+| 1 | Mirhamid  |  1-20, 161,162    |     ❌           |
 | 2 |  Jasur    |  21-40, 163,164   |     ✅           |
 | 3 | Asliddin  |  41-60, 165,166   |     ✅           |
 | 4 | Jasmina   |  61-80, 167,168   |                  |
