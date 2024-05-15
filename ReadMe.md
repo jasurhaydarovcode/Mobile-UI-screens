@@ -46,7 +46,7 @@ npm run twind
 | 5 | Samira    |  81-100, 169,170  |                  |
 | 6 | Asilbek   |  101-120, 171,172 |     ✅           |
 | 7 | Khujamov  |  121-140, 173,174 |                  |
-| 8 | Abdusalomov     |  141-160, 175     |     ✅           |
+| 8 |Abdusalomov|  141-160, 175     |     ✅           |
 
 
 ---
