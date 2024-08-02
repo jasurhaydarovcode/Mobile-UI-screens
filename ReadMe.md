@@ -154,8 +154,3 @@ npm run twind
 | <img src="art/screenshots/page_97.png" width="200"/> | <img src="art/screenshots/page_98.png" width="200"/> | <img src="art/screenshots/page_99.png" width="200"/> | <img src="art/screenshots/page_100.png" width="200"/> |
 
 
-<div align="right">
-
-### [Markdown Senior](https://github.com/jasurhaydarovcode)
-
-</div>
